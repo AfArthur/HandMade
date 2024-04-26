@@ -92,6 +92,8 @@
 }
 
 body {
+  height: 100%;
+  padding: 0;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -3502,6 +3504,10 @@ textarea.form-control-lg {
   --bs-dropdown-link-active-bg: #0d6efd;
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-header-color: #adb5bd;
+}
+
+.btn-mapa:hover {
+  color: #ffffff !important;
 }
 
 .btn-group,
@@ -10823,4 +10829,16 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+.map-wrap{
+  height: 500px;
+  width: 500px;
+  position: static !important;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position: static !important;
 }
